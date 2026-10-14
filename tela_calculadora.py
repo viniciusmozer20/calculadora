@@ -45,6 +45,8 @@ def calcular_resultado(valor_atual):
     global resultado, operacao
     if operacao == "+":
         resultado += valor_atual
+    elif operacao == "-":
+        resultado -= valor_atual
     elif operacao == "*":
         resultado *= valor_atual
     elif operacao == "/":
